@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Surgical Robotics Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Simple animation for project cards on hover */
+        .project-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600">My Portfolio</div>
+            <div class="space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-indigo-600 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Exploring AI & Robotics in Surgery</h1>
+            <p class="text-lg md:text-xl text-indigo-100 mb-8">Leveraging open-source data to innovate in surgical robotics, focusing on areas inspired by the da Vinci Surgical System.</p>
+            <a href="#projects" class="bg-white text-indigo-600 font-semibold py-2 px-6 rounded-lg shadow hover:bg-gray-100 transition duration-300">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Me</h2>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    I am passionate about the intersection of Artificial Intelligence, Statistics, and Surgical Robotics. My focus is on exploring innovative applications using open-source data, particularly inspired by advancements like the da Vinci Surgical System. I aim to leverage data analysis, machine learning, and simulation to contribute to improvements in surgical ergonomics, image analysis, outcome prediction, and control systems within the medical robotics field. While proprietary data on specific systems like da Vinci is limited, I believe significant progress can be made by creatively utilizing publicly available datasets, research findings, and simulation tools.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Programming Languages</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Python (scikit-learn, TensorFlow/PyTorch, pandas)</li>
+                        <li>R (tidyverse, caret, ggplot2)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">AI & Machine Learning</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Supervised Learning (Regression, Classification)</li>
+                        <li>Computer Vision (CNNs, Image Processing - OpenCV)</li>
+                        <li>Reinforcement Learning (Simulation control)</li>
+                        <li>Model Evaluation (Accuracy, Precision, Recall, F1)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Statistics</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Descriptive & Inferential Statistics</li>
+                        <li>Hypothesis Testing (t-tests, ANOVA)</li>
+                        <li>Statistical Modeling (Regression)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Data Handling</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Data Cleaning & Preprocessing</li>
+                        <li>Feature Engineering</li>
+                        <li>Working with Medical Datasets (EndoCV, SEER)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Simulation & Modeling</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Robotics Simulation (Gazebo, Unity)</li>
+                        <li>Robot Operating System (ROS)</li>
+                        <li>Basic CAD Understanding (GrabCAD models)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Domain Knowledge</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Medical Imaging Fundamentals</li>
+                        <li>Surgical Robotics Concepts</li>
+                        <li>Human Factors & Ergonomics in Surgery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+                <div class="bg-white p-6 rounded-lg shadow-md project-card">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Ergonomics & Usability Analysis</h3>
+                    <p class="text-gray-700 mb-4">
+                        Analyzed public surgical videos and research papers to study surgeon movements and workflow efficiency in robotic surgery, proposing usability improvements.
+                    </p>
+                    <p class="text-sm text-gray-500 mb-4"><strong>Tools:</strong> Python/R, OpenCV (optional), Research Databases</p>
+                    <a href="#" class="text-indigo-600 hover:underline font-medium">Learn More (Placeholder)</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md project-card">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">AI for Endoscopic Image Analysis</h3>
+                    <p class="text-gray-700 mb-4">
+                        Developed deep learning models (CNNs) using open-source datasets (EndoCV) for tasks like polyp detection and image enhancement in endoscopic visuals.
+                    </p>
+                    <p class="text-sm text-gray-500 mb-4"><strong>Tools:</strong> Python, TensorFlow/PyTorch, OpenCV, Google Colab</p>
+                    <a href="#" class="text-indigo-600 hover:underline font-medium">Learn More (Placeholder)</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md project-card">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Statistical Analysis of Surgical Outcomes</h3>
+                    <p class="text-gray-700 mb-4">
+                        Applied statistical methods to public datasets (e.g., SEER) to identify factors influencing success rates and trends in robotic surgery outcomes.
+                    </p>
+                     <p class="text-sm text-gray-500 mb-4"><strong>Tools:</strong> R/Python, pandas, statsmodels, ggplot2</p>
+                    <a href="#" class="text-indigo-600 hover:underline font-medium">Learn More (Placeholder)</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md project-card">
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-600">Simulating Robotic Surgery Control</h3>
+                    <p class="text-gray-700 mb-4">
+                        Built simulations of robotic surgery tasks using Gazebo/ROS, exploring AI-driven automation (path planning, reinforcement learning) for tool manipulation.
+                    </p>
+                    <p class="text-sm text-gray-500 mb-4"><strong>Tools:</strong> Python, ROS, Gazebo/Unity, OpenAI Gym</p>
+                    <a href="#" class="text-indigo-600 hover:underline font-medium">Learn More (Placeholder)</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Get In Touch</h2>
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <p class="text-center text-gray-700 mb-6">
+                    Interested in collaborating or learning more about my projects? Feel free to reach out!
+                </p>
+                <div class="text-center space-y-2">
+                     <p class="text-gray-700"><strong>Email:</strong> manideepreddy966@gmail.com </p>
+                     
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Manideep Reddy. All rights reserved.</p>
+            <p class="text-sm text-gray-400 mt-1">Portfolio focused on AI & Surgical Robotics</p>
+        </div>
+    </footer>
+
+</body>
+</html>
